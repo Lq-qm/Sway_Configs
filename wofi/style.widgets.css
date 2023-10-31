@@ -1,0 +1,45 @@
+/*
+Arc-Dark Color Scheme
+*/
+
+@define-color highlight #333333;
+@define-color base1  #181818;
+@define-color base2 #333333;
+@define-color base3  #181818;
+
+*{
+    font-family: HurmitNerd;
+}
+
+#window {
+    border: 10px solid @highlight;
+    margin: 0px 0px 0px 0px;
+}
+
+#inner-box {
+    background-color: @base1;
+}
+
+#outer-box {
+    margin: 5px;
+    padding: 12px;
+    background-color: @base1;
+    margin-top: 5px;
+}
+
+#text {
+    padding: 7px;
+    color: white;
+}
+
+#entry:nth-child(even) {
+    background-color: @base1;
+}
+
+#entry {
+    background-color: @base3;
+}
+
+#entry:selected {
+    background-color: @highlight;
+}
