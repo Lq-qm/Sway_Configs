@@ -1,0 +1,33 @@
+# indicator
+no-unlock-indicator
+# screenshot
+screenshots
+# blur
+effect-blur=7x7
+#effect-vignette=0.5:0.5
+# daemonize
+#indicator-caps-lock
+# datestr=%A
+#image=$HOME/.config/sway/swaylock.png
+#scaling=fill
+#font=UbuntuMono
+#font-size=20
+#color=#101010
+
+# Ring
+
+#indicator-radius=70
+#line-uses-ring
+#indicator-thicknes=7
+#line-color=#ffffff
+#text-color=#000000
+#text-ver-color=#4dff88
+#inside-color=#333333
+#inside-ver-color=#333333
+#line-ver-color=#4dff88
+#ring-ver-color=#4dff88
+#ring-color=#333333
+#key-hl-color=#4dff88
+#separator-color=#4c566a
+#layout-text-color=#eceff4
+#line-wrong-color=#ff3333
