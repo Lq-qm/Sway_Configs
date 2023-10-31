@@ -1,0 +1,38 @@
+# Initial Setup 
+# exec ~/set_once.sh
+
+# Config for sway
+#
+# Read `man 5 sway` for a complete reference.
+
+# user config directory
+include $HOME/.config/sway/config.d/*
+
+default_border pixel 1
+client.focused "#000000" "#ffffff" "#333333"
+
+# only enable this if every app you use is compatible with wayland
+# xwayland disable
+
+output DP-1 mode 1920x1080@165.001Hz position 0,0
+output HDMI-A-1 mode 1920x1080@60.000Hz position 1920,0
+
+output "*" bg /home/lo/Imagens/67943-girls-braids-cigarette-dress-gun-hong-meiling-izayoi-sakuya-karlwolf-knife-monochrome-red-remilia-scarlet-smoking-touhou-vampire-weapon-wings.jpg fill
+
+gaps inner 5px
+gaps outer 5px
+
+for_window [app_id="kitty"] floating enable
+for_window [class="Simplenote"] floating enable
+for_window [app_id="piper"] floating enable
+for_window [class="code-oss"] floating enable
+for_window [class="steam"] floating enable
+for_window [class="Steam"] floating enable
+for_window [app_id="xed"] floating enable 
+for_window [app_id="azote"] floating enable
+for_window [app_id="gnome-disks"] floating enable
+for_window [app_id="thunar"] floating enable
+for_window [app_id="thunar-volman-settings"] floating enable
+# for_window [app_id="brave-browser"] floating enable
+for_window [app_id="brave"] floating enable
+for_window [app_id="filezilla"] floating enable
